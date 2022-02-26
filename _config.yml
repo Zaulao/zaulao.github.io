@@ -26,6 +26,8 @@ url: "https://zaulao.com" # the base hostname & protocol for your site, e.g. htt
 twitter_username: Zaulao 
 github_username: Zaulao
 
+favicon: "favicon.ico"
+
 # Build settings
 theme: no-style-please
 
