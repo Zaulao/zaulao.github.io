@@ -42,6 +42,10 @@ p { margin: 1rem 0; }
 
 li { margin: 0.4rem 0; }
 
+ul { list-style: none; } 
+
+a {text-decoration: none;}
+
 *:target { background-color: yellow; }
 
 .w {
