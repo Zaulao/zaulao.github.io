@@ -16,5 +16,5 @@ layout: default
 
 <div class="container">
   <h1>Zaulao</h1>
-  <pre><p><a href="/archive.html">ø</a></p></pre>
+  <pre><p><a href="/archive">ø</a></p></pre>
 </div>
