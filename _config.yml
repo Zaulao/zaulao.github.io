@@ -6,7 +6,9 @@ url: "https://zaulao.com" # the base hostname & protocol for your site, e.g. htt
 twitter_username: Zaulao 
 github_username: Zaulao
 
-theme: jekyll-theme-console
+#theme: jekyll-theme-console
+remote_theme: b2a3e8/jekyll-theme-console
+
 favicon: "favicon.ico"
 header_pages:
   - index.md
