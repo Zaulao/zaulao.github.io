@@ -14,8 +14,8 @@ header_pages:
   - index.md
   - about.md
 
-style: dark # dark (default), light or hacker
-listen_for_clients_preferred_style: true # false (default) or true
+style: dark # dark (default), light, nord or hacker
+listen_for_clients_preferred_style: false # false (default) or true
 
 permalink: /:title
 show_dir_listing: false

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default_no_footer
 title: ./vi.txt
 permalink: /vi.html
 ---
