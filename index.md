@@ -1,20 +1,9 @@
 ---
-layout: default
+layout: home
+title: "[~]"
+permalink: /
 ---
-
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-  }
-</style>
-
-<div class="container">
-  <h1>Zaulao</h1>
-  <pre><p><a href="/archive">ø</a></p></pre>
-</div>
+**~$** cat ./whoami.txt
+\x5A\x61\x75\x6C\x61\x6F
+**~$** rm ./whoami.txt
+**~$** ls -l
