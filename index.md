@@ -3,7 +3,8 @@ layout: home
 title: "[~]"
 permalink: /
 ---
-**~$** cat ./whoami.txt
-\x5A\x61\x75\x6C\x61\x6F
-**~$** rm ./whoami.txt
+**~$** hexdump ./readme
+0000000 615a 6c75 6f61 000a
+0000007
+**~$** rm ./readme
 **~$** ls -l
