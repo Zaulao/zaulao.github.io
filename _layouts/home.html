@@ -3,11 +3,12 @@ layout: default
 ---
 
 {{ content }}
-total {{ site.posts.size }}
+{% assign visible_posts = site.posts | where_exp: "post", "post.archived != true" %}
+total {{ visible_posts.size }}
 {% assign contentwonl = content | strip_newlines %} {% unless contentwonl == ""  %} <br /> {% endunless %} <!-- add line break if there is any content -->
-{%- if site.posts.size > 0 -%}
+{%- if visible_posts.size > 0 -%}
   <ul>
-    {%- for post in site.posts -%}
+    {%- for post in visible_posts -%}
     <li>
       {% assign date_format = "%b  %d %H:%M" %}
       {{post.size}} {{ post.date | date: date_format }} <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>

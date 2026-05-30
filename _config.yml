@@ -19,5 +19,5 @@ listen_for_clients_preferred_style: false # false (default) or true
 
 permalink: /:title
 show_dir_listing: false
-footer: 'follow me on <a href="https://twitter.com/Zaulao">twitter</a>'
+#footer: 'follow me on <a href="https://twitter.com/Zaulao">twitter</a>'
 markdown: kramdown
