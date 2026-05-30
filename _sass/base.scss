@@ -28,7 +28,7 @@ a:hover { color: var(--background-color); background-color: var(--base-color); }
 p { word-wrap: break-word;  word-break: break-word;  white-space: pre-wrap; margin-bottom: 15px; }
 .home-content p:last-child { margin-bottom: 0; }
 .archive-content p:last-child { margin-bottom: 0; }
-footer { color: var(--text-color);  border-top: var(--border);  margin: 20px auto 15px;  padding-top: 10px;  text-align: right; }
+footer { color: var(--text-color);  margin: 20px auto 15px;  padding-top: 10px;  text-align: right; }
 header { margin-top: 25px;  margin-bottom: 10px; }
 header p { text-align: left;  margin: 0; }
 footer { margin-bottom: 20px; }
@@ -44,12 +44,16 @@ footer { margin-bottom: 20px; }
  */
 :not(.menu):not(.post) > ul { list-style: none;  padding-left: 0; }
 :not(.menu):not(.post) > ul { list-style-type: none; }
-:not(.menu):not(.post) > ul > li:before { content: "-rw-r--r-- 1 root root ";  margin-right: 9px; }
+.file-list-prefix { margin-right: 9px; }
 
 /**
  * Header/Navigation
  */
-.menu { border-top: var(--border);  border-bottom: var(--border);  margin-bottom: 25px; }
+.menu { margin-bottom: 25px; }
+.section-divider { overflow: hidden;  white-space: nowrap;  color: var(--text-color); }
+.menu .section-divider:first-child { margin-bottom: 12px; }
+.menu .section-divider:last-child { margin-top: 12px; }
+footer .section-divider { margin-bottom: 10px; }
 .menu ul { margin-top: 12px;  margin-bottom: 12px;  padding-left: 0px;  list-style-type: none;  text-align: right; }
 .menu ul li { display: inline;  margin-left: 10px; }
 .menu ul li a { text-decoration: none;  color: var(--text-color); }
