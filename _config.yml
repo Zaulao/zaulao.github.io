@@ -21,3 +21,12 @@ permalink: /:title
 show_dir_listing: false
 #footer: 'follow me on <a href="https://twitter.com/Zaulao">twitter</a>'
 markdown: kramdown
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      archived: false
+      size: 0

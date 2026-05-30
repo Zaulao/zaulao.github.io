@@ -1,7 +1,7 @@
 ---
 layout: default_no_footer
 title: ./vi.txt
-permalink: /vi.html
+permalink: /vi
 ---
 
 ```
