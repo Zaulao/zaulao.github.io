@@ -1,13 +1,14 @@
 services:
   jekyll:
-    image: jekyll/jekyll:4.2.2
+    image: ruby:3.2.3
     container_name: zaulao-jekyll
     working_dir: /srv/jekyll
     environment:
       BUNDLE_FORCE_RUBY_PLATFORM: "true"
       JEKYLL_ENV: development
     command: >-
-      sh -c "bundle install --jobs 4 --retry 3 &&
+      sh -c "gem install jekyll bundler &&
+             bundle install --jobs 4 --retry 3 &&
              bundle exec jekyll serve --host 0.0.0.0 --port 4000 --livereload"
     ports:
       - "4000:4000"
